@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const fs = require('fs');
+
 let { writeData, content } = require("../helpers/helpers");
 
 router.get("/", (req, res) => {
