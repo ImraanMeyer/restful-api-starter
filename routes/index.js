@@ -4,13 +4,15 @@ const router = express.Router();
 let { writeData, content } = require("../helpers/helpers");
 
 router.get("/", (req, res) => {
-    res.json({ msg: "Welcome to the fun!" });
+    res.json({ message: "Welcome to the fun!" });
 });
 
 // @route GET /api
 // @desc Get All Posts 
 router.get("/api", (req, res) => {
-    res.send(content);
+    content.length === 0 ?
+        res.json({ message: "No data available." }) :
+        res.send(content);
 });
 
 // @route GET /id
@@ -44,7 +46,9 @@ router.put("/api/:id", (req, res) => {
     const Posts = [];
 
     content.forEach(current_post =>
-        current_post.id === id ? Posts.push(new_post) : Posts.push(current_post)
+        current_post.id === id ?
+            Posts.push(new_post) :
+            Posts.push(current_post)
     );
 
     content = Posts;
