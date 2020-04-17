@@ -1,4 +1,7 @@
+
 # restful-api-starter 🚀
+[![Build Status](https://travis-ci.com/ImraanMeyer/restful-api-starter.svg?branch=master)](https://travis-ci.com/ImraanMeyer/restful-api-starter)
+
 * Express Restful API starter kit
 * This Server makes use of a JSON database
 
