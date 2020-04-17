@@ -1,4 +1,4 @@
-# restful-api-starter
+# restful-api-starter 🚀
 * Express Restful API starter kit
 * This Server makes use of a JSON database
 
@@ -11,15 +11,15 @@ https://github.com/ImraanMeyer/restful-api-starter.git
 
 Install Modules:
 ```
-npm install
+npm install || yarn
 ```
 Start Server:
 ```
-npm start
+npm start || yarn start
 ```
 Start Server (Nodemon):
 ```
-npm run server
+npm run server || yarn server
 ```
 
 ## Routes
@@ -62,3 +62,7 @@ Content-Type: application/json
     "URL": "https://github.io/ImraanMeyer"
 }
 ```
+------
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
