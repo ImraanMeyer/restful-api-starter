@@ -6,4 +6,3 @@ cache:
   - node_modules
 script:
   - npm install
-  - npm start
