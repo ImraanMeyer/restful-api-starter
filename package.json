@@ -22,7 +22,7 @@
         "mime": "^1.6.0",
         "mime-db": "^1.43.0",
         "mime-types": "^2.1.26",
-        "minimist": ">=1.2.3",
+        "minimist": "^1.2.5",
         "morgan": "^1.9.1",
         "ms": "^2.0.0",
         "negotiator": "^0.6.2",
