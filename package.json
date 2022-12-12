@@ -9,7 +9,7 @@
         "braces": "^3.0.2",
         "chalk": "^2.4.2",
         "debug": "^2.6.9",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "fill-range": "^7.0.1",
         "iconv-lite": "^0.4.24",
         "is-installed-globally": "^0.1.0",
